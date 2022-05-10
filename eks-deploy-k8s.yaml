@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: cnikhilkumar/java-web-app:latest
+        image: https://hub.docker.com/repository/registry-1.docker.io/cnikhilkumar/java-web-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
